@@ -1,4 +1,4 @@
-# Rede Social DevsBook
+# DevsBook
 
 ## Objetivo
 

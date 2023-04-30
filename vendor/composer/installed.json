@@ -1,14 +1,9 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "4ac30facc6416d068f2ec2883c245b52",
     "packages": [
         {
             "name": "clancats/hydrahon",
             "version": "v1.1.12",
+            "version_normalized": "1.1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ClanCats/Hydrahon.git",
@@ -26,7 +21,9 @@
             "require-dev": {
                 "phpunit/phpunit": "4.*"
             },
+            "time": "2019-09-19T10:59:20+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "ClanCats\\Hydrahon\\": "src/"
@@ -51,15 +48,9 @@
                 "query",
                 "sqlite"
             ],
-            "time": "2019-09-19T10:59:20+00:00"
+            "install-path": "../clancats/hydrahon"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": []
+    "dev": true,
+    "dev-package-names": []
 }
