@@ -3,7 +3,7 @@ namespace src\handlers;
 
 use \src\models\User;
 
-class HandlerLogin {
+class LoginHandler {
 
     public static function checkLogin(){
         if(!empty($_SESSION['token'])){

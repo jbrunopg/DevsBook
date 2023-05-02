@@ -5,12 +5,17 @@ use \core\Controller;
 
 class LoginController extends Controller {
 
-    public function signin(){
-        echo 'login';
+    public function signin() {
+        $this->render('login');
 
     }
 
-    public function signup(){
+    public function signinAction() {
+        echo 'login - recebido';
+    }
+
+
+    public function signup() {
         echo 'cadastro';
 
     }
