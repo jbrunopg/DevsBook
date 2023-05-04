@@ -12,3 +12,5 @@ Criar uma cópia da rede social Facebook
 - [x] Configurando o login de usuário
 
 ## Agradecimento
+
+Agradeço a B7Web pela ideia do projeto
