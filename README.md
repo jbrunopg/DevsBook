@@ -10,6 +10,8 @@ Criar uma cópia da rede social Facebook
 
 - [x] Criação das tabelas em MySQL
 - [x] Configurando o login de usuário
+- [] Configurar página de cadastro
+- [] Configuar página Home
 
 ## Agradecimento
 
