@@ -10,5 +10,10 @@ Criar uma cópia da rede social Facebook
 
 - [x] Criação das tabelas em MySQL
 - [x] Configurando o login de usuário
+- [ ] Configurar página de cadastro
+- [ ] Configurar página Home
+- [ ] Configurar Feed
 
 ## Agradecimento
+
+Agradeço a B7Web pela ideia do projeto
