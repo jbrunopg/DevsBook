@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+<html lang="pt-br">
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <title>Login - DevsBook</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/>
     <link rel="stylesheet" href="<?=$base;?>/assets/css/login.css" />
@@ -13,11 +14,9 @@
         </div>
     </header>
     <section class="container main">
-
         <form method="POST" action="<?=$base;?>/login">
-
             <?php if(!empty($flash)): ?>
-                <?php echo $flash; ?>
+                <div class="flash"><?php echo $flash; ?></div>
             <?php endif; ?>
 
             <input placeholder="Digite seu e-mail" class="input" type="email" name="email" />
