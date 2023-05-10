@@ -52,7 +52,16 @@ class LoginController extends Controller {
     }
 
     public function signupAction(){
-        
+        $name = filter_input(INPUT_POST, 'name');
+        $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+        $password = filter_input(INPUT_POST, 'password');
+        $birthdate = filter_input(INPUT_POST, 'birthdate');
+
+        if($name && $email && $password && $birthdate){
+
+        }else {
+            $this->redirect('/cadastro');
+        }
     }
 
 }
