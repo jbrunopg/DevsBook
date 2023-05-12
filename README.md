@@ -14,7 +14,7 @@ Criar uma cópia da rede social Facebook
 ![Login_Devsbook](https://user-images.githubusercontent.com/107354811/236728104-5a2a4e97-d534-49b2-b6d2-b8c33cb5d42c.png)
 
 
-- [ ] Configurar página de cadastro
+- [x] Configurar página de cadastro
 
 ![Cadastro_Devsbook](https://user-images.githubusercontent.com/107354811/236728321-f0b1ef5b-b2a8-4e56-b34a-6f4ed332a882.png)
 
