@@ -70,6 +70,15 @@ class LoginController extends Controller {
                     $this->redirect('/cadastro');
                 }
 
+                if(LoginHandler::emailExists(email) === false) {
+                    $token = LoginHandler::addUser($name, $email, $password, $birthdate);
+                    $_SESSION['token'] = $token;
+                    $this->redirect('/');
+                } else {
+                    $_SESSION['flash'] = 'E-mail já cadastrado!';
+                    $this->redirect('/cadastro');
+                }
+
 
         }else {
             $this->redirect('/cadastro');
