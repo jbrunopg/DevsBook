@@ -9,6 +9,8 @@ class HomeController extends Controller {
 
     private $loggedUser;
 
+    // Verifica se o usuário está logado e redireciona para a página de login se não estiver.
+
     public function __construct() {
         $this->loggedUser = LoginHandler::checkLogin();
         if($this->loggedUser === false) {
