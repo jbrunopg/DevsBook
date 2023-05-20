@@ -20,8 +20,8 @@ class LoginHandler {
                 // Cria um objeto User com os dados do usuário logado e o retorna
                 $loggedUser = new User();
                 $loggedUser->id = $data['id'];
-                $loggedUser->email = $data['email'];
                 $loggedUser->name = $data['name'];
+                $loggedUser->avatar = $data['avatar'];
 
                 return $loggedUser;
 

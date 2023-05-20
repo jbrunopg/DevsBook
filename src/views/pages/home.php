@@ -1,4 +1,4 @@
-<?=$render('header');?>
+<?=$render('header', ['LoggedUser'=>$loggedUser]);?>
 
 <section class="container main">
         <?=$render('sidebar');?>

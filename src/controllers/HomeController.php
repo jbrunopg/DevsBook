@@ -23,7 +23,9 @@ class HomeController extends Controller {
 
     public function index() {
         // Renderiza a view 'home' e passa a variável 'nome' como parâmetro com o valor 'Bruno'
-        $this->render('home', ['nome' => 'Bruno']);
+        $this->render('home', [
+            'loggedUser' => $this->loggedUser
+        ]);
     }
 
 }
