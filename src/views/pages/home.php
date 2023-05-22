@@ -106,4 +106,4 @@
 
         </section>
     </section>
-<?=render('footer');?>
+<?=$render('footer');?>
