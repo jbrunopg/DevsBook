@@ -22,7 +22,7 @@ Criar uma cópia da rede social Facebook
 ![Cadastro_Devsbook](https://user-images.githubusercontent.com/107354811/236728321-f0b1ef5b-b2a8-4e56-b34a-6f4ed332a882.png)
 
 
-- [ ] Configurar página Home
+- [x] Configurar página Home
 - [ ] Configurar Feed
 
 ## Agradecimento
