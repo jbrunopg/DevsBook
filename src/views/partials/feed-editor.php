@@ -9,6 +9,10 @@
                 <div class="feed-new-send">
                     <img src="assets/images/send.png" />
                 </div>
+
+                <form method="POST" action="<?=$base;?>/post/new>
+                    <input type="hidden" name="body" />
+
             </div>
         </div>
     </div>
