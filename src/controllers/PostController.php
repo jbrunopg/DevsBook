@@ -24,7 +24,7 @@ class PostController extends Controller {
     public function new() {
         $body = filter_input(INPUT_POST, 'body');
 
-        echo "CORPO: ".$body';
+        echo "CORPO: ".$body." - ID: ".$this->loggedUser->id;
     }
 
 }
