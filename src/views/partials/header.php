@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <title>DevsBooK</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/>
     <link rel="stylesheet" href="<?=$base;?>/assets/css/style.css" />
@@ -22,10 +22,10 @@
                 </div>
                 <div class="head-side-right">
                         <a href="<?=$base;?>/perfil" class="user-area">
-                        <div class="user-area-text"><?=$loggedUser->name;?></div>
-                    <   div class="user-area-icon">
-                        <img src="<?=$base;?>/media/avatars/<?=$loggedUser->avatar;?>" />
-                </div>
+                        <div class="user-area-text"><?=$loggedUser->getname();?></div>
+                        <div class="user-area-icon">
+                            <img src="<?=$base;?>/media/avatars/<?=$loggedUser->getavatar();?>" />
+                        </div>
                         </div>
                     </a>
                     <a href="<?=$base;?>/sair" class="user-logout">
