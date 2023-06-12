@@ -12,7 +12,6 @@
             <div class="logo">
                 <a href="<?=$base;?>"><img src="<?=$base;?>/assets/images/devsbook_logo.png" /></a>
             </div>
-            // 
             <div class="head-side">
                 <div class="head-side-left">
                     <div class="search-area">
