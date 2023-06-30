@@ -30,4 +30,4 @@ Criar uma cópia da rede social Facebook
 
 ## Agradecimento
 
-Agradeço a B7Web pela ideia do projeto
+Agradeço à B7Web pela ideia do projeto
