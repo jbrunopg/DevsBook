@@ -23,11 +23,11 @@ Criar uma cópia da rede social Facebook
 
 
 - [x] Configurar página Home
-- [x] Separar Feed e Editor
+- [ ] Separar Feed e Editor
 - [ ] Configurar Feed
 - [ ] Configurar Perfil
 - [ ] Configurar Amigos
 
 ## Agradecimento
 
-Agradeço a B7Web pela ideia do projeto
+Agradeço à B7Web pela ideia do projeto
