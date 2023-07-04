@@ -47,7 +47,7 @@ class LoginHandler {
                 // Atualiza o token do usuário no banco de dados
                 User::update()->set('token', $token)
                 ->where('email', $email)
-            ->execute();
+                ->execute();
 
 
                 return $token;
@@ -63,7 +63,7 @@ class LoginHandler {
      * Retorna true caso o e-mail já esteja cadastrado ou false caso contrário.
      */
 
-    public function emailExists($email){
+     public static function emailExists($email){
         $user = User::select()->where('email', $email)->one();
         return $user ? true : false;
     }
@@ -73,10 +73,10 @@ class LoginHandler {
      * Retorna o token de autenticação do novo usuário.
      */
 
-    public function addUser($name, $email, $password, $birthdate) {
+     public static function addUser($name, $email, $password, $birthdate) {
         $hash = password_hash($password, PASSWORD_DEFAULT);
         $token = md5(time().rand(0, 9999).time());
-
+    
         // Insere os dados do novo usuário no banco de dados
         User::insert([
             'email' => $email,
@@ -85,7 +85,7 @@ class LoginHandler {
             'birthdate' => $birthdate,
             'token' => $token
         ])->execute();
-
+    
         return $token;
     }
 

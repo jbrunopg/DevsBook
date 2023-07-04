@@ -91,7 +91,7 @@ class LoginController extends Controller {
                 }
                 
                  // Verifica se o e-mail já está cadastrado no sistema
-                if(LoginHandler::emailExists(email) === false) {
+                if(LoginHandler::emailExists($email) === false) {
                     $token = LoginHandler::addUser($name, $email, $password, $birthdate);
                     $_SESSION['token'] = $token;
                     $this->redirect('/');
