@@ -1,7 +1,7 @@
 <?php
 namespace core;
 
-use \src\Config;
+use src\Config;
 
 class Controller {
 
@@ -10,16 +10,17 @@ class Controller {
         exit;
     }
 
-    private function getBaseUrl() {
-        $base = (isset($_SERVER['HTTPS']) && strtolower($_SERVER['HTTPS']) == 'on') ? 'https://' : 'http://';
+    private function getBaseUrl(): string {
+        $base = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? 'https://' : 'http://';
         $base .= $_SERVER['SERVER_NAME'];
-        if($_SERVER['SERVER_PORT'] != '80') {
-            $base .= ':'.$_SERVER['SERVER_PORT'];
+        if ($_SERVER['SERVER_PORT'] != '80' && $_SERVER['SERVER_PORT'] != '443') {
+            $base .= ':' . $_SERVER['SERVER_PORT'];
         }
         $base .= Config::BASE_DIR;
-        
+
         return $base;
     }
+
 
     private function _render($folder, $viewName, $viewData = []) {
         if(file_exists('../src/views/'.$folder.'/'.$viewName.'.php')) {
