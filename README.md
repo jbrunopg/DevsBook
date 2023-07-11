@@ -24,7 +24,7 @@ Criar uma cópia da rede social Facebook
 
 - [x] Configurar página Home
 - [x] Separar Feed e Editor
-- [ ] Configurar Feed
+- [x] Configurar Feed
 - [ ] Configurar Perfil
 - [ ] Configurar Amigos
 
